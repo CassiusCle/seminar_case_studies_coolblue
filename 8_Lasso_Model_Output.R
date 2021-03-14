@@ -7,10 +7,10 @@ library(MASS)
 library(glmnet)
 
 # Script that estimates the Lasso Linear model on the entire data set
-# NB:   - This script requires the workspace resulting from running (5) and
+# NB:   - This script requires the workspace resulting from running '5_Merge_Attribution_Modeling_Data.R' and
 #         also requires 'linGrid', 'trcontrollin' and functions 'data_pp', 
-#         'train_lin', 'transform_dummy' and 'normalise' from (7) to run properly
-#         (it is not necessary to run the entire nested 10-fold CV in script (7))
+#         'train_lin', 'transform_dummy' and 'normalise' from '7_Model_Performance_Comparison.R' to run properly
+#         (it is not necessary to run the entire nested 10-fold CV in '7_Model_Performance_Comparison.R')
 
 # Auxiliary function for reporting output 
 get_lasso_out <- function(lasso){

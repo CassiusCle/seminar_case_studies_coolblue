@@ -8,7 +8,7 @@ library(lubridate)
 library(ggsci)
 
 # Script that produces the plot used in the data section of the paper
-# NB:   - This script requires the workspace resulting from running (5) to run properly
+# NB:   - This script requires the workspace resulting from running '5_Merge_Attribution_Modeling_Data.R' to run properly
 
 # Hash setup for channel/operator pairs
 pairs <- unique(df[c('channel','operator')])

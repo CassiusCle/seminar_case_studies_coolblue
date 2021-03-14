@@ -6,7 +6,7 @@ library(dplyr)
 
 # Script that runs the estimation procedure for the Causal Impact of individual commercials on our response variable
 # NB:   - This script might take a while to run
-#       - This script requires the workspace resulting from running (1) and (2) sequentially to run properly
+#       - This script requires the workspace resulting from running '1_Attribution_Data.R' and '2_Attribution_Functions.R' to run properly
 
 pre <- 100
 post <- 3

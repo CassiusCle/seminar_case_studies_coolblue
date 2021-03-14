@@ -5,7 +5,7 @@ library(Metrics)
 library(caret)
 
 # Script that combines the transformed broadcast data set with our attribution results to prepare for modeling the estimated effectiveness of TV commercials
-# NB:   - This script requires the workspace resulting from running (3) and (4) to run properly
+# NB:   - This script requires the workspace resulting from running '3_Attribution_Estimation.R' and '4_Modeling_Data.R' to run properly
 
 # Merge Attribution results with broadcast data
 df_T <- merge(dt, cdata_effects, by = c("date_time", "channel", "gross_rating_point"))

@@ -10,7 +10,7 @@ library(glmnet)
 
 # Script that performs nested 10-fold Cross validation to compare the performance of three different models
 # NB:   - This script might take a while to run
-#       - This script requires the workspace resulting from running (5) to run properly
+#       - This script requires the workspace resulting from running '5_Merge_Attribution_Modeling_Data.R' to run properly.
 
 # Function that converts categorical variables in a data frame to a set of dummy variables
 transform_dummy <- function (original, leave_one_out = FALSE){
