@@ -21,7 +21,7 @@ Script that prepares the broadcast data set for modeling the estimated effective
 
 ## 5_Merge_Attribution_Modeling_Data.R
 Script that combines the transformed broadcast data set from the 4th script with our attribution results from script 3 to prepare for modeling the estimated effectiveness of TV commercials.
-This script requires the workspace resutling from '3_Attribution_Estimation.R' and '4_Modeling_Data.R' to run properly.
+This script requires the workspace resulting from '3_Attribution_Estimation.R' and '4_Modeling_Data.R' to run properly.
 
 ## 6_Generate_Plots.R
 Script that produces the plot used in the data section of the paper.
